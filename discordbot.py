@@ -1,8 +1,7 @@
-import discord
 import os
 
+import discord
 client=discord.Client()
-
 token="put your bots token"
 
 
