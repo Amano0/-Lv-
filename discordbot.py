@@ -7,7 +7,7 @@ token="put your bots token"
 
 @client.event
 async def on_message(message):
-    
+
     # userのデータが書かれているtextファイルのpath (ファイル名はuser.id)
     USER_DATA_FILE_PATH=f'/MemberData/{message.author.id}.txt'
 
